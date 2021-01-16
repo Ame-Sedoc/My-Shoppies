@@ -43,7 +43,7 @@ h3 {
         max-width: 760px;
         display: block;
         padding: 3rem 2rem;
-        height: 165vh;
+        height: auto;
     }
 }
 
