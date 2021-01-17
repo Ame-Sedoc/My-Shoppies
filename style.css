@@ -1,4 +1,4 @@
-* {
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 0;
     margin: 0;
-}
+} */
 
 h1,
 h3 {
@@ -43,7 +43,11 @@ h3 {
         max-width: 760px;
         display: block;
         padding: 3rem 2rem;
-        height: 165vh;
+        min-height: auto;
+    }
+
+    body {
+      background-color: rgb(251, 247, 237);
     }
 }
 
@@ -222,11 +226,11 @@ button.nombutton:hover, button.nombutton:focus, button.nombutton:active{
 
 @media (max-width: 768px) {
     .pageheader h1 {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
     }
 
     .tile h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .tile {
@@ -238,20 +242,20 @@ button.nombutton:hover, button.nombutton:focus, button.nombutton:active{
     }
 
     .searchbar{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     button.nombutton {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 1rem 1.15rem;
     }
 
     .details {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .imgcontainer {
