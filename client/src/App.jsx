@@ -50,7 +50,7 @@ function App() {
 
   async function searchAPI(value, page) {
     try {
-      const response = await axios.get("http://www.omdbapi.com", {
+      const response = await axios.get("https://www.omdbapi.com", {
         params: {
           apikey: "b9d36027",
           s: value,
