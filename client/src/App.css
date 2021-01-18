@@ -142,6 +142,13 @@ h3 {
   overflow-y: auto;
 }
 
+@supports (-webkit-touch-callout: none) {
+  .movielist {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 .movie {
   display: flex;
   height: 100px;
